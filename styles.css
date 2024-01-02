@@ -1,0 +1,111 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.pfp_content
+{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    column-gap: 15px;
+    padding: 10px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.pfp_image img
+{
+    border-radius: 100px;
+    box-shadow: 1px 1px 0px 1px rgb(116, 115, 115);
+}
+.about_pfp h1
+{
+    font-size: 48px;
+}
+.about_pfp h3
+{
+    font-size: 28px;
+}
+.school_experience
+{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding: 10px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.school
+{
+    width: 100%;
+}
+.school h2,.intern h2
+{
+    text-align: center;
+    color: #3a8def;
+    font-size: 28px;
+    font-weight: 800;
+}
+.school h3,.intern h3
+{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.school h5,.intern h5
+{
+    margin-top: 3px;
+    color: #636363;
+    font-size: 18px;
+}
+.intern h4
+{
+    margin-top: 3px;
+    text-align: justify;
+    font-size: 22px;
+}
+.skills_project
+{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding: 10px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.skills
+{
+    width: 100%;
+}
+.skills h2,.project h2
+{
+    text-align: center;
+    color: #3a8def;
+    font-size: 28px;
+    font-weight: 800;
+}
+.skills h3,.project h3
+{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.skills h5,.project h5
+{
+    margin-top: 3px;
+    color: #636363;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+.project h4
+{
+    margin-top: 3px;
+    text-align: justify;
+    font-size: 22px;
+}
+.project a
+{
+    margin-top: 0px;
+}
