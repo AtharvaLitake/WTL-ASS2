@@ -1,0 +1,18 @@
+AJAX stands for Asynchronous javascript in XML
+
+What is Asynchronous Programming ?
+Asynchronous - Programming is not blocking dom rendering , it is calling functions in the background
+
+Modern websites uses Json rather than XML
+
+Advantages of using AJAX -
+1. Without reload and refresh , AJAX works
+2. Better User experience
+3. Saving Bandwidth
+4. Very Interactive
+
+How it Works ?
+AJAX uses XMLHttpRequest object ( xhr object )
+Data can be transferred in any protocol and format
+Inbuilt in pure javascript ( Vanilla Javascript )
+
