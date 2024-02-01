@@ -12,7 +12,7 @@ function fetchdata()
     const xhr=new XMLHttpRequest(); //initialized xhr object 
     //open the object
 
-    xhr.open('GET','test.txt',true)
+    xhr.open('GET','https://jsonplaceholder.typicode.com/todos/1',true)
     //Three parameters - last parameter is async which we have set to true.
     //Non blocking requests
 
